@@ -66,8 +66,8 @@ def Visualize_lasso(x_train,y_train,x_test,y_test,y_pred,y_pred2):
    plt.scatter(x_test['Flight Duration'],y_pred,color='pink',label='Predicted_testing_data')
    plt.xlabel('Flight Duration')
    plt.ylabel('Delay')
-   plt.xlim(-2, 10)
-   plt.ylim(-2, 5)
+   plt.xlim(0,2)
+   plt.ylim(0,2)
    plt.legend(loc='best')
    plt.title('Lasso')
 
