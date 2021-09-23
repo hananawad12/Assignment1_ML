@@ -1,1 +1,14 @@
 # Assignment1_ML
+#this is the first assignment for Machine Learning course. It contains six scripts: Preprocessing, MultipleLinearRegression, PolynomialRegession, Lasso, SupportVectorRegression and main script
+
+##main.py: to run the five tasks you need to enter Integer number from 1 to 4 such that 1 to run MultipleLinearRegression.py, 2 to run PolynomialRegession.py, 3 to run Lasso.py, and 4 to run SupportVectorRegression.py and if you enter another character then the program will be terminated. and It contain two function are preprocess1 and Precrocess2 to calling the all functions from Preprocessing script
+
+##Preprocessing.py: contains functions for reading data, removing outliers, sorting data, calculate Flight Duration, Scaling using MinMaxScaler and StandardScaler, create new data frame by selecting important features(Flight Duration, Depature Airport, Destination Airport,dalay), splitting data to train and test such that The data is split based on Scheduled departure time. The train data is all the data from year 2015 till 2017.All the data samples collected in year 2018 are to be used as testing set, and finally Reducing dataset to 2D and 3D using PCA and visualize it after that.
+
+##MultipleLinearRegression.py: contains the implementation of function for multiple linear regression model to estimate flight delay time based on independent predictors (Flight Duration, Depature Airport, Destination Airport )and measure the performance of this model using(R2 Score,MSE,MAE) and visualize the training_data, Predicted_training_data, testing_data and Predicted_testing_data to see the training error and testing error.
+
+##PolynomialRegession.py: contains the implementation of function for polynomial regression model with degree 2 (Largest accuracy)to estimate flight delay time based on independent predictors (Flight Duration, Depature Airport, Destination Airport )and measure the performance of this model using(R2 Score,MSE,MAE) and visualize the training_data, Predicted_training_data, testing_data and Predicted_testing_data to see the training error and testing error.
+
+##Lasso.py: contains the implementation of function for Regularization using Lasso to estimate flight delay time based on independent predictors (Flight Duration, Depature Airport, Destination Airport )and measure the performance of this model using(R2 Score,MSE,MAE) and visualize the training_data, Predicted_training_data, testing_data and Predicted_testing_data to see the training error and testing error..
+
+##SupportVectorRegression.py: contains the implementation of function for Support Vector regression model to estimate flight delay time based on independent predictors (Flight Duration, Depature Airport, Destination Airport )and measure the performance of this model using(R2 Score,MSE,MAE) and visualize the training_data, Predicted_training_data, testing_data and Predicted_testing_data to see the training error and testing error.
