@@ -163,19 +163,19 @@ except ValueError:
 #-------------------------------------------------------------------------------------   
 #Multiple Linear Regression 
 if n==1 and __name__=="__main__":
-    x_train,x_test,y_train,y_test=preprocess1()
+    x_train,x_test,y_train,y_test=preprocess2()
     y_pred,y_pred2=linear_regression(x_train,y_train,x_test,y_test)
     Visualize_linear_regression(x_train,y_train,x_test,y_test,y_pred,y_pred2)
 #-------------------------------------------------------------------------------------
 #Polynomial Regression 
 if n==2 and __name__=="__main__":
-    x_train,x_test,y_train,y_test=preprocess1()
+    x_train,x_test,y_train,y_test=preprocess2()
     y_pred,y_pred2=polynomial_regression(x_train,y_train,x_test,y_test)
     Visualize_polynomial_regression(x_train,y_train,x_test,y_test,y_pred,y_pred2)
 #-------------------------------------------------------------------------------------
 #Lasso
 if n==3 and __name__=="__main__":
-    x_train,x_test,y_train,y_test=preprocess1()
+    x_train,x_test,y_train,y_test=preprocess2()
     y_pred,y_pred2=lasso_regular(x_train,y_train,x_test,y_test)
     Visualize_lasso(x_train,y_train,x_test,y_test,y_pred,y_pred2)      
 #------------------------------------------------------------------------------------- 
