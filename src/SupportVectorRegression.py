@@ -9,8 +9,8 @@ from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error
 def support_vector_regression(x_train,y_train,x_test,y_test):
     #1-Learning
     #svr=SVR(kernel='rbf', C=100.0, gamma=0.0004, epsilon= 0.01)
-    svr=SVR(kernel='linear')
-    #svr=SVR(kernel='rbf')
+    #svr=SVR(kernel='linear')
+    svr=SVR(kernel='rbf')
     x_train=x_train.values
     y_train=y_train.values
     x_test=x_test.values
